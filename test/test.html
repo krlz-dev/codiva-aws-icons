@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Codiva AWS Icons Test</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+        
+        // Initialize mermaid
+        mermaid.initialize({ startOnLoad: true });
+
+        // Import our local icons (this would normally be from the npm package)
+        import { icons } from '../dist/index.js';
+
+        // Register the icon pack
+        mermaid.registerIconPacks([
+            {
+                name: 'codiva-aws',
+                icons,
+            },
+        ]);
+    </script>
+</head>
+<body>
+    <h1>Codiva AWS Icons Test</h1>
+    
+    <div class="mermaid">
+        graph TD
+            Lambda[codiva-aws:analytics-lambda Lambda Function]
+            S3[codiva-aws:analytics-s3 S3 Bucket]
+            DynamoDB[codiva-aws:analytics-dynamodb DynamoDB]
+            Lambda --> S3
+            Lambda --> DynamoDB
+    </div>
+</body>
+</html>
