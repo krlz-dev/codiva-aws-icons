@@ -59,7 +59,7 @@ function buildIconsObject(): IconifyJSON {
   processDirectory(iconsDir);
   
   return {
-    prefix: 'codiva-aws',
+    prefix: 'aws',
     icons
   };
 }

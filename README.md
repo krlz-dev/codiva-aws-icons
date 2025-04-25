@@ -5,19 +5,19 @@ A collection of AWS icons for use with Mermaid.js diagrams.
 ## Installation
 
 ```bash
-npm install @codiva/aws-icons
+npm install @valravnx/aws-icons
 ```
 
 ## Usage
 
 ```javascript
 import mermaid from 'mermaid';
-import { icons } from '@codiva/aws-icons';
+import { icons } from '@valravnx/aws-icons';
 
 // Register the AWS icon pack
 mermaid.registerIconPacks([
   {
-    name: 'codiva-aws',
+    name: 'aws',
     icons,
   },
 ]);
@@ -34,11 +34,11 @@ graph TD
 
 ## Available Icons
 
-All AWS service icons are available with the prefix `codiva-aws:`. For example:
-- codiva-aws:lambda
-- codiva-aws:s3
-- codiva-aws:ec2
-- codiva-aws:dynamodb
+All AWS service icons are available with the prefix `aws:`. For example:
+- aws:lambda
+- aws:s3
+- aws:ec2
+- aws:dynamodb
 
 ## License
 

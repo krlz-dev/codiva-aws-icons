@@ -1,5 +1,5 @@
 {
-  "name": "@codiva/aws-icons",
+  "name": "@valravnx/aws-icons",
   "version": "1.0.0",
   "description": "AWS icons for Mermaid.js diagrams",
   "main": "dist/index.js",
