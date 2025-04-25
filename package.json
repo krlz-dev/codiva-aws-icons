@@ -16,7 +16,7 @@
     "diagrams",
     "architecture"
   ],
-  "author": "",
+  "author": "Codiva",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.15.0",
